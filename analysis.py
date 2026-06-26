@@ -1,3 +1,6 @@
 import pandas as pd
 
-print("Health Data Analysis Project started")
+# Load dataset
+df = pd.read_csv("data/dataset.csv")
+# Show data
+print(df.head())
